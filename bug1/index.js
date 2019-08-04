@@ -4,7 +4,7 @@
 //   string representing the transactions
 //*******************************************************
 function renderTransactions(transactions) {
-	var finalHTML = document.querySelector(".buffer")
+	var finalHTML = '<div class="buffer">TRANSACTIONS</div>';
 
 	var transactionsHTML = transactions.map(function (transaction) {
 		var transactionHTML = `
